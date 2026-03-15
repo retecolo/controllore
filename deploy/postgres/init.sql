@@ -1,0 +1,3 @@
+-- Init script for PostgreSQL
+-- Database creation is handled by the docker-compose environment variables (POSTGRES_DB).
+-- The daemon auto-migrates the schema using 'internal/db/store.go'
